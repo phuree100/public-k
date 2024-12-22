@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('/images/f75157e0-23a1-5910-bce4-da9682e69da2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background: rgba(233, 30, 99, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+nav {
+    background: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    margin: 0 20px;
+    color: #e91e63;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+nav a:hover {
+    color: #ad1457;
+    transform: scale(1.1);
+}
+main {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+section {
+    margin-bottom: 30px;
+}
+section h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #e91e63;
+    border-left: 6px solid #f06292;
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img {
+    min-width: 100%;
+    user-select: none;
+}
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(233, 30, 99, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+.carousel button:hover {
+    background: rgba(173, 20, 87, 0.8);
+}
+.carousel .prev {
+    left: 10px;
+}
+.carousel .next {
+    right: 10px;
+}
+.credits {
+    margin: 40px auto 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+.credits p {
+    margin: 0;
+    line-height: 1.6;
+}
+.credits a {
+    color: #e91e63;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.credits a:hover {
+    color: #ad1457;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e91e63;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
